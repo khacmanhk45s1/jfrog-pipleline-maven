@@ -31,8 +31,8 @@ pipeline {
 				    resolverId: 'resolver-id',
 				    deployerId: 'deployer-id',
 				    // If the build name and build number are not set here, the current job name and number will be used:
-				    buildName: 'simplewebapp',
-				    buildNumber: '1'
+				    //buildName: 'simplewebapp',
+				    //buildNumber: '1'
 				)   
 			}
 		}
