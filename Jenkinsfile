@@ -8,8 +8,8 @@ pipeline {
 				rtMavenResolver (
 				    id: 'resolver-id',
 				    serverId: 'jfrogserver',
-				    releaseRepo: 'libs-release-local',
-				    snapshotRepo: 'libs-snapshot-local'
+				    releaseRepo: 'libs-release',
+				    snapshotRepo: 'libs-snapshot'
 				)
 				rtMavenDeployer (
 				    id: 'deployer-id',
